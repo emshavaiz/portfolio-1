@@ -1,0 +1,337 @@
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  body {
+    width: 100%;
+  }
+
+  .menu-img {
+    display: none;
+  }
+
+  .menu-1 {
+    display: flex;
+  }
+
+  .menu-1 a {
+    font-size: 70%;
+    /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+    font-family: 'Inter';
+    text-decoration: none;
+    padding-right: 20%;
+    color: white;
+  }
+
+  nav {
+    padding: 2% 22% 1% 11%;
+  }
+
+  nav p {
+    font-size: 75%;
+  }
+
+  .mail {
+    height: 65%;
+  }
+
+  main {
+    flex-direction: row;
+    padding-bottom: 3%;
+  }
+
+  .name-job {
+    background-image: url('image/Illustration-header.png');
+    background-size: 40%;
+    background-position: right;
+    padding: 12% 0% 14% 5%;
+  }
+
+  .name-job h1 {
+    font-size: 271%;
+  }
+
+  .name-job h3 {
+    padding: 1% 0%;
+    font-size: 125%;
+  }
+
+  .description1 {
+    width: 44%;
+    font-size: 87%;
+    font-weight: 100;
+  }
+
+  .social-media {
+    display: none;
+  }
+
+  .slide-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 3%;
+  }
+
+  .icons {
+    padding-bottom: 10%;
+  }
+
+  .react-work {
+    display: flex;
+    padding: 8% 0% 5% 6%;
+    align-items: flex-end;
+  }
+
+  .react-work h2 {
+    padding: 0%;
+    font-size: 120%;
+    text-align: start;
+    font-weight: 100;
+  }
+
+  .vector0 {
+    margin-left: 3%;
+    width: 70%;
+    border-top: 2px solid #bbb;
+  }
+
+  .react-post {
+    display: inline-flex;
+    flex-direction: row;
+    padding: 2% 0% 3% 6%;
+    gap: 50px;
+  }
+
+  .title-post {
+    margin-top: 0%;
+    font-size: 135%;
+  }
+
+  .description {
+    margin-top: 5%;
+    font-size: 77%;
+  }
+
+  .ul-lang li {
+    margin-top: 4%;
+    font-size: 50%;
+    padding: 2%;
+  }
+
+  .gym-img {
+    width: 55%;
+  }
+
+  .post-description-lists {
+    width: 33%;
+  }
+
+  .sp-btn {
+    margin-top: 6%;
+    font-size: 49%;
+    padding: 3%;
+    width: 26%;
+  }
+
+  .vec4 {
+    margin-top: 6%;
+    width: 90%;
+  }
+
+  .combine {
+    padding: 0% 5% 0% 5%;
+  }
+
+  .li-sections {
+    padding: 5% 0% 7% 1%;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .languages {
+    display: flex;
+  }
+
+  .square-rotate {
+    font-size: 205%;
+    transform: rotate(-337deg);
+  }
+
+  .la {
+    font-size: 120%;
+  }
+
+  .langs-4 {
+    align-items: flex-start;
+    font-size: 80%;
+  }
+
+  .frameworks {
+    display: inline-flex;
+  }
+
+  .square {
+    font-size: 205%;
+  }
+
+  .fw {
+    font-size: 120%;
+  }
+
+  .frameworks-4 {
+    align-items: flex-start;
+    font-size: 80%;
+  }
+
+  .frameworks-4 li {
+    padding-left: 10%;
+  }
+
+  .skills {
+    display: flex;
+    margin-top: 20%;
+  }
+
+  .circle {
+    width: 11px;
+    height: 11px;
+    margin-left: 0%;
+    margin-top: 3%;
+  }
+
+  .sk {
+    font-size: 120%;
+  }
+
+  .skills-4 {
+    align-items: flex-start;
+    font-size: 80%;
+  }
+
+  .about {
+    padding: 12% 0% 0% 8%;
+    background-image: url('image/bg-laptop.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 37%;
+  }
+
+  .laptop-img {
+    display: none;
+  }
+
+  .about-me {
+    font-size: 250%;
+  }
+
+  .paragraph {
+    font-size: 70%;
+    width: 38%;
+    line-height: 149.5%;
+  }
+
+  .resume-btn {
+    padding: 1%;
+    font-size: 60%;
+  }
+
+  .last-page {
+    flex-direction: row;
+    padding: 8% 0% 0% 8%;
+    justify-content: space-evenly;
+  }
+
+  .text-last {
+    text-align: left;
+    font-size: 150%;
+    width: 26%;
+    margin-top: 2%;
+    line-height: 135.5%;
+  }
+
+  #form {
+    margin-top: 0%;
+    width: 55%;
+  }
+
+  #form-inputs {
+    gap: 4px;
+  }
+
+  #full-name {
+    font-size: 75%;
+    padding: 1%;
+  }
+
+  #email-address {
+    font-size: 75%;
+    padding: 1%;
+  }
+
+  #message {
+    font-size: 75%;
+    padding-left: 0%;
+  }
+
+  .vector1 {
+    width: 100%;
+  }
+
+  #touch-btn {
+    font-size: 60%;
+    padding: 2%;
+    margin: 0% 0% 0% 5%;
+  }
+
+  .dvd {
+    margin-top: 12%;
+  }
+
+  .icn {
+    padding: 1%;
+  }
+
+  .shape {
+    display: none;
+  }
+
+  .the-main {
+    margin-bottom: 6%;
+  }
+
+  .main3 {
+    width: 25%;
+    margin: 1% 1% 1% 2%;
+  }
+
+  .first-3 {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .last-3 {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .text3 p {
+    font-size: 145%;
+    padding-top: 25%;
+  }
+
+  .description3 p {
+    font-size: 75%;
+    padding: 3%;
+  }
+
+  .ul-lang2 li {
+    font-size: 65%;
+    padding: 3%;
+  }
+
+  .large-button3 {
+    font-size: 80%;
+    font-weight: bold;
+    padding: 3% 0%;
+  }
+}
