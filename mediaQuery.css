@@ -3,6 +3,14 @@
     width: 100%;
   }
 
+  main {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+
+    /* padding-bottom: 3%; */
+  }
+
   .menu-img {
     display: none;
   }
@@ -16,7 +24,7 @@
     /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
     font-family: 'Inter';
     text-decoration: none;
-    padding-right: 20%;
+    padding-right: 30%;
     color: white;
   }
 
@@ -29,19 +37,14 @@
   }
 
   .mail {
-    height: 65%;
-  }
-
-  main {
-    flex-direction: row;
-    padding-bottom: 3%;
+    height: 60%;
   }
 
   .name-job {
     background-image: url('image/Illustration-header.png');
     background-size: 40%;
     background-position: right;
-    padding: 12% 0% 14% 5%;
+    padding: 10% 0% 14% 4%;
   }
 
   .name-job h1 {
@@ -67,11 +70,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 3%;
+    margin-left: 2%;
   }
 
   .icons {
-    padding-bottom: 10%;
+    height: 7%;
   }
 
   .react-work {
@@ -88,6 +91,7 @@
   }
 
   .vector0 {
+    padding-bottom: 1%;
     margin-left: 3%;
     width: 70%;
     border-top: 2px solid #bbb;
@@ -97,7 +101,7 @@
     display: inline-flex;
     flex-direction: row;
     padding: 2% 0% 3% 6%;
-    gap: 50px;
+    gap: 30px;
   }
 
   .title-post {
@@ -117,7 +121,7 @@
   }
 
   .gym-img {
-    width: 55%;
+    width: 50%;
   }
 
   .post-description-lists {
@@ -245,6 +249,7 @@
     width: 26%;
     margin-top: 2%;
     line-height: 135.5%;
+    font-weight: 900;
   }
 
   #form {
@@ -253,7 +258,7 @@
   }
 
   #form-inputs {
-    gap: 4px;
+    gap: 1px;
   }
 
   #full-name {
@@ -267,8 +272,10 @@
   }
 
   #message {
+    margin-top: 2%;
     font-size: 75%;
     padding-left: 0%;
+    background-image: none;
   }
 
   .vector1 {
@@ -282,10 +289,12 @@
   }
 
   .dvd {
+    width: 100%;
     margin-top: 12%;
   }
 
   .icn {
+    margin-top: 1%;
     padding: 1%;
   }
 
